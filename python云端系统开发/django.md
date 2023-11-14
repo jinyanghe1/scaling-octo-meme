@@ -22,6 +22,7 @@ mysite/ --> __init__.py & settings.py & urls.py & wsgi.py
 - `manage.py`只能对当前的工程文件进行控制。
 
 ### 创建一个具体应用
+
 - `python manage.py startapp helloapp`创建新应用。
 - 工程是一个总体的统一框架，而一个app实现具体的细分功能。
 
@@ -29,6 +30,7 @@ mysite/ --> __init__.py & settings.py & urls.py & wsgi.py
 - 下一步，修改[`urls.py`]( mysite/mysite/urls.py)
 
 ### django的MTV开发模式
+
 ```mermaid
 graph LR
 用户 <--> WSGI <--> 路由
